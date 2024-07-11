@@ -1,0 +1,71 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+::-webkit-scrollbar {
+
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background:#fff;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:  rgb(95, 95, 231);  
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+.nav-link{
+    font-weight: 500;
+    margin-left: 1rem !important;
+}
+.hero-top{
+    background-image: linear-gradient(180deg, #c4b6fd, #93acfc);
+
+}
+.navBtn-primary{
+    background-color: rgb(95, 95, 231) !important;
+    border:none;
+    border-radius: 12px;
+    padding: 10px 20px;
+}
+.navBtn-primary:hover{
+    background-color: rgb(121, 121, 224) !important;
+
+}
+.blue-txt{
+    color:rgb(0, 106, 255);
+    padding-right: 10px;
+}
+.icons{
+    height:32px;
+    width: 32px;
+    margin-bottom: 16px;
+    color:blue;
+    background-color: #f2f2f2;
+    padding:6px;
+}
+.blue-bg{
+    background-color: #0a58ca !important; 
+    color:#fff !important;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    border: none !important;
+    background-color: #0a58ca !important;
+    color: #fff !important;
+}
+.nav-tabs {
+    border: none !important;
+
+}
+footer{
+    color: #fff;
+    height:75px;
+    background-color: rgb(121, 121, 224) !important;
+
+}
